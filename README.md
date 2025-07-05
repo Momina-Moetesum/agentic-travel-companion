@@ -24,4 +24,18 @@ An agentic AI application that helps users plan trips and send emergency alerts 
 ---
 
 ## Project Structure
+.
+├── backend/
+│   ├── main.py          # FastAPI backend
+│   ├── agents.py        # LangGraph agent setup
+│   └── tools/
+│       ├── weather.py   # Weather API
+│       └── sms.py       # Twilio
+├── frontend/
+│   └── app.py           # Streamlit app
+├── Dockerfile
+├── docker-compose.yml
+├── .env
+├── .gitignore
+├── README.md
 
